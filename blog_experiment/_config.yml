@@ -24,7 +24,7 @@ tagline: Two steps back, three steps forward.
 location: Wonderland
 date: true
 baseurl: "/blog_experiment" # the subpath of your site, e.g. /blog
-url: "http://johncoene.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://potionpi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Mint
 #google_analytics: UA-101394056-1 #don't know what this is so commented out for now
 
