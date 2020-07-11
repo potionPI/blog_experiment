@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Hello World!"
+author: Mint
+date:   2020-07-11
+category: Greetings
+keywords: Hello and hi
+---
+
+Tonight, at 4:45 AM, the first words of the first post have been typed. These posts shall hardly be enough to warrant a pretty newspaper-style theme as the one which I've chosen, but given how beautiful the theme is, I have not changed to another more suitable theme.
+
+I intend to collect many resources here of the hobbies which interest me. The night is short, and I must sleep, so the first material which I will collect will not show up until after the sun rises. For now, I will retire to bed.
