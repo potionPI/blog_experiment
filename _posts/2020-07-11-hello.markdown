@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 author: Mint
 date:   2020-07-11
-category: posts
+category: Greetings
 keywords: Hello and hi
 ---
 
