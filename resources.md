@@ -9,7 +9,10 @@ This shall become a list of various resources which have been gathered over the 
 *Pardon the lack of links, I just recently set this thing up.*
 
 ### **Language**: 
-As of now, there are no links, but there should be in a little while.
+#### Posts:
+[Chinese Practice 1: 小颖美食 Bouncy Potatoes](../chinese%20food%20translation/2020/07/12/xiaoyingmeishiBouncyPotato)
+#### How to:
+[How to type pinyin accents on mac](../chinese/2020/07/12/howtomacpinyin.html)
 
 ### **GitHub**: 
 As of now, there are no links, but there should be in a little while.
