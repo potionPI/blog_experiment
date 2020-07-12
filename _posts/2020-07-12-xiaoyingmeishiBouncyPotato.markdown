@@ -4,7 +4,7 @@ title:  "Chinese Practice 1: 小颖美食 Bouncy Potatoes"
 author: Mint
 date:   2020-07-12
 category: Chinese Food Translation
-keywords: Typing on Mac
+keywords: Food for thought
 ---
 
 I was planning on posting this yesterday, but it's more work than I thought! Instead it's released today. Tomorrow I'll try to do another video or maybe something smaller?

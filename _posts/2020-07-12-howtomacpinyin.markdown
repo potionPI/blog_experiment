@@ -4,7 +4,7 @@ title:  "How to type pinyin accents on mac"
 author: Mint
 date:   2020-07-12
 category: Chinese
-keywords: Food for thought
+keywords: Typing on Mac
 ---
 # Accents: ē, ú, ǒ, à, etc.
 
