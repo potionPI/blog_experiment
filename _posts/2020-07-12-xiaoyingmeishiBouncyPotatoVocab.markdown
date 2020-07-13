@@ -5,7 +5,7 @@ author: Mint
 date:   2020-07-12
 category: Chinese Food Translation
 keywords: Food for thought
-abstract: Vocabulary for Chinese Practice 1: 小颖美食 Bouncy Potatoes
+abstract: Vocabulary for Chinese Practice 1
 ---
 
 ## Vocabulary
