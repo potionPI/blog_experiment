@@ -11,6 +11,9 @@ This shall become a list of various resources which have been gathered over the 
 ### **Language**: 
 #### Posts:
 [Chinese Practice 1: 小颖美食 Bouncy Potatoes](../chinese%20food%20translation/2020/07/12/xiaoyingmeishiBouncyPotato)
+
+[Chinese Practice 1: 小颖美食 Bouncy Potatoes Vocab](../chinese%20food%20translation/2020/07/12/xiaoyingmeishiBouncyPotatoVocab)
+
 #### How to:
 [How to type pinyin accents on mac](../chinese/2020/07/12/howtomacpinyin.html)
 
