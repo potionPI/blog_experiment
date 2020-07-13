@@ -160,8 +160,8 @@ I don't put *all* the words I don't know sometimes. Because sometimes *all* is t
 - <span style="font-size:50px">弹</span> (tán) springy/bouncy: 看一下非常的q弹
 - <span style="font-size:50px">直接</span> (zhí jiē) directly: 这样就可以直接吃了
 - <span style="font-size:50px">尝</span> (cháng) taste: 我们来尝一下看看
-- <span style="font-size:50px">搭配</span> (dā pèi) pair: 带配上肉末和蒜苔
-- <span style="font-size:50px">营养</span> (yíng yǎng) pair: 营养也是非常丰富
+- <span style="font-size:50px">搭配</span> (dā pèi) pair: 搭配上肉末和蒜苔
+- <span style="font-size:50px">营养</span> (yíng yǎng) nutrition: 营养也是非常丰富
 - <span style="font-size:50px">适合</span> (shì hé) suitable for: 老人和孩子都非常的适合
 - <span style="font-size:50px">视频</span> (shì pín) video: 喜欢我的视频就关注我吧
 
