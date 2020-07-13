@@ -19,7 +19,7 @@ This shall become a list of various resources which have been gathered over the 
 [How to type pinyin accents on mac](../chinese/2020/07/12/howtomacpinyin.html)
 
 ### **GitHub**
-As of now, there are no links, but there should be in a little while.
+[How to push to GitHub pages on mac](../github%20stuff/2020/07/12/GithubHowToPushPages.html)
 
 ### **Earth**
 As of now, there are no links, but there should be in a little while.
