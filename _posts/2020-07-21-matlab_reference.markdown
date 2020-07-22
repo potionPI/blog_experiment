@@ -129,3 +129,10 @@ load:
     end
     
 * * *
+
+##### Mac comment and uncomment shortcuts
+
+To comment: COMMAND + /
+To uncomment: COMMAND + T
+
+* * *
