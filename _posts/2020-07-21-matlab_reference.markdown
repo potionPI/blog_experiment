@@ -116,3 +116,16 @@ load:
     load("myWorkspace"); % loads myWorkspace.mat into the workspace. Does NOT clear variables but will overwrite variables
 
 * * *
+
+##### Check if element is in vector
+
+    myArray = [10, 20, 30];
+    myElementToCheck = 10;
+    myBoolean = sum(ismember(myArray, myElementToCheck));
+    if myBoolean > 0
+        disp(myElementToCheck + " is in array!");
+    else
+        disp(myElementToCheck + " is NOT in array!");
+    end
+    
+* * *
