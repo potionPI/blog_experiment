@@ -21,7 +21,10 @@ This shall become a list of various resources which have been gathered over the 
 ### **GitHub**
 [How to push to GitHub pages on mac](../github%20stuff/2020/07/12/GithubHowToPushPages.html)
 
-### **Earth**
+### **Matlab**
+[Matlab reference](../matlab/2020/07/21/matlab_reference.html)
+
+### **Google Earth Engine**
 As of now, there are no links, but there should be in a little while.
 
 <br><br><br>*...some other topics should be added in as I prepare to repackage and gather more materials.*
