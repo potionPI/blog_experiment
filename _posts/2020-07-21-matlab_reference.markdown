@@ -28,6 +28,13 @@ abstract: "Check current directory, check files in current directory, for loop, 
         disp(i);
     end
 
+for loop for array:
+
+    myArray = [10, 13, -23];
+    for i = 1:numel(myArray)
+        disp(myArray(i));
+    end
+
 * * *
 
 ##### While loop:
@@ -135,5 +142,21 @@ load:
 To comment: COMMAND + /
 
 To uncomment: COMMAND + T
+
+* * *
+
+##### Append more two arrays
+
+Append more columns:
+
+    A = [10, 20, 30];
+    B = [22, 11, -10];
+    C = [A, B]
+
+Append more rows:
+
+    A = [10, 20, 30];
+    B = [22, 11, -10];
+    C = [A; B]
 
 * * *
