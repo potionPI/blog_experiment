@@ -87,3 +87,32 @@ abstract: "Check current directory, check files in current directory, for loop, 
         This is a block
         comment
     %}
+
+* * *
+
+##### Clear workspace
+
+Matlab's clear workspace reference: [link](https://www.mathworks.com/help/matlab/ref/clear.html)
+
+    clear %This clears EVERYTHING from the workspace area
+    
+    clear varA %This clears just the variable with name varA from the workspace area
+    
+    % To clear variables except a select few...
+    varA = 1; varB = 1; varC = 1; varD = 1; varE = 1;
+    clearvars -except varA varB varC; % Now varD and varE will disappear but the specified variables will not
+    
+* * *
+
+##### Save and load workspace
+Matlab's save and load workspace reference: [link](https://www.mathworks.com/help/matlab/ref/save.html)
+
+save:
+
+    save("myWorkspace"); % saves current workspace as myWorkspace.mat
+
+load:
+
+    load("myWorkspace"); % loads myWorkspace.mat into the workspace. Does NOT clear variables but will overwrite variables
+
+* * *
