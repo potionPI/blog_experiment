@@ -160,3 +160,11 @@ Append more rows:
     C = [A; B]
 
 * * *
+
+##### dateshift
+
+Shift some number of weeks or months
+
+    z = datetime(2020, 1, 1); % January 1st 2020
+    y = dateshift(z, 'end', 'week', 0); % y will now be the first (index 0) Sunday of January 2020 (January 4th 2020)
+    y = dateshift(z, 'end', 'week', 1); % y will now be the second (index 1) Sunday of January 2020 (January 11th 2020)
