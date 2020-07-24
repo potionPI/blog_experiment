@@ -28,11 +28,18 @@ abstract: "Check current directory, check files in current directory, for loop, 
         disp(i);
     end
 
-for loop for array:
+for loop for vector:
 
     myArray = [10, 13, -23];
     for i = 1:numel(myArray)
         disp(myArray(i));
+    end
+    
+for loop for array matrix:
+
+    myArray = [10 20 30 ; 40 50 60 ; 70 80 90];
+    for i = 1:numel(myArray(:, 1))
+        disp(myArray(i, 2));
     end
 
 * * *
@@ -168,3 +175,30 @@ Shift some number of weeks or months
     z = datetime(2020, 1, 1); % January 1st 2020
     y = dateshift(z, 'end', 'week', 0); % y will now be the first (index 0) Sunday of January 2020 (January 4th 2020)
     y = dateshift(z, 'end', 'week', 1); % y will now be the second (index 1) Sunday of January 2020 (January 11th 2020)
+
+* * *
+
+##### swap columns
+
+    % This swaps rows 2 and 3
+    A = [1 2 3 ; 4 5 6; 7 8 9]
+    A = A';
+    temp = A(: , 2);
+    A(: , 2) = A(: , 3);
+    A(: , 3) = temp;
+    
+* * *
+
+##### find element index in array
+
+for array of strings
+
+    ans3 = ["hello" , "hi" , "goodbye"];
+    disp(find(strcmp(ans3,"hi")));
+
+for array of numbers
+
+    ans2 = [10, 2, 42];
+    disp(find(ans2 == 42));
+
+* * *
