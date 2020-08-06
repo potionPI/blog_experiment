@@ -25,6 +25,6 @@ This shall become a list of various resources which have been gathered over the 
 [Matlab reference](../matlab/2020/07/21/matlab_reference.html)
 
 ### **Google Earth Engine**
-As of now, there are no links, but there should be in a little while.
+[Google Earth Engine reference](../google%20earth%20engine/2020/08/06/gee_reference.html)
 
 <br><br><br>*...some other topics should be added in as I prepare to repackage and gather more materials.*
