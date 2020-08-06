@@ -11,6 +11,8 @@ abstract: "Export image, ..."
 * * * 
 
 ##### Get image:
+
+link: https://code.earthengine.google.com/5f6a68b8ca324e9980e9546e743a097d
     
     // These are the geometries
     var MainUS = /* color: #0b4a8b */ee.Geometry.Polygon(
