@@ -202,3 +202,9 @@ for array of numbers
     disp(find(ans2 == 42));
 
 * * *
+
+##### in a matrix or array, average all of the same of some column and make a new table
+
+    table = [10 10 10 20 20 20 30 30 30; 1 1 1 2 0 4 -10 20 -1]';
+    [~, ~, table2] = unique(table(:,1));
+    table = [unique(table(:,1)) , accumarray(table2, table(:, 2),[], @mean)];
