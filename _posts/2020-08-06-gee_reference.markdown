@@ -10,9 +10,21 @@ abstract: "Export image, ..."
 
 * * * 
 
+##### Advance date by a day/week/month/etc
+
+link: [https://code.earthengine.google.com/39eee0c9c68f9f0ab45d8e08a72e2770](https://code.earthengine.google.com/39eee0c9c68f9f0ab45d8e08a72e2770)
+
+
+    var myDate = ee.Date('2020-03-01');
+    print(myDate);
+    myDate = myDate.advance(1, 'week');
+    print(myDate);
+
+* * * 
+
 ##### Get image:
 
-link: https://code.earthengine.google.com/5f6a68b8ca324e9980e9546e743a097d
+link: [https://code.earthengine.google.com/5f6a68b8ca324e9980e9546e743a097d](https://code.earthengine.google.com/5f6a68b8ca324e9980e9546e743a097d)
     
     // These are the geometries
     var MainUS = /* color: #0b4a8b */ee.Geometry.Polygon(
