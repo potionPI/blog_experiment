@@ -5,7 +5,7 @@ author: Mint
 date:   2020-08-06
 category: Google Earth Engine
 keywords: Quick look-up
-abstract: "Export image, ..."
+abstract: "Advance date, Export image, ..."
 ---
 
 * * * 
