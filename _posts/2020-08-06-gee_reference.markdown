@@ -10,6 +10,24 @@ abstract: "Advance date, Export image, ..."
 
 * * * 
 
+##### Iteration/for loop equivalent
+
+It's not a good idea to use a for loop, so we do this instead
+
+Stack exchange link: [https://gis.stackexchange.com/questions/291121/gee-hangs-in-a-for-loop-using-dates](https://gis.stackexchange.com/questions/291121/gee-hangs-in-a-for-loop-using-dates)
+
+link: [https://code.earthengine.google.com/a9ea948e1f3b3419f3f41c9a315a72dc](https://code.earthengine.google.com/a9ea948e1f3b3419f3f41c9a315a72dc)
+
+    var changingDate = ee.Date.fromYMD(2019, 01, 01);
+    var listVariable = ee.List.sequence(0, 81);
+    var datesList = listVariable.map(function(d) {
+    var currentDate = changingDate.advance(d, 'week'); 
+    return currentDate.get('week');
+    });
+    print(datesList);
+
+* * * 
+
 ##### Advance date by a day/week/month/etc
 
 link: [https://code.earthengine.google.com/39eee0c9c68f9f0ab45d8e08a72e2770](https://code.earthengine.google.com/39eee0c9c68f9f0ab45d8e08a72e2770)
@@ -19,6 +37,15 @@ link: [https://code.earthengine.google.com/39eee0c9c68f9f0ab45d8e08a72e2770](htt
     print(myDate);
     myDate = myDate.advance(1, 'week');
     print(myDate);
+
+* * * 
+
+##### Get date year/month/week/day
+
+link: [https://code.earthengine.google.com/647cd492e5a0ccc1cebd8bde8476c169](https://code.earthengine.google.com/647cd492e5a0ccc1cebd8bde8476c169)
+
+    var myDate = ee.Date.fromYMD(2020,12,21);
+    print(myDate.get('week'));
 
 * * * 
 
