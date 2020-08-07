@@ -5,7 +5,7 @@ author: Mint
 date:   2020-08-06
 category: Google Earth Engine
 keywords: Quick look-up
-abstract: "Advance date, Export image, ..."
+abstract: "Iteration, Get border images, Advance date, date stuff, Export image, ..."
 ---
 
 * * * 
@@ -27,6 +27,51 @@ link: [https://code.earthengine.google.com/a9ea948e1f3b3419f3f41c9a315a72dc](htt
     print(datesList);
 
 * * * 
+
+##### Get borders images
+
+The desired border is obtained from a vector dataset. [Click here](https://developers.google.com/earth-engine/vector_datasets) for Google Earth Engine's selected vector datasets catalog
+
+link example 1: (https://code.earthengine.google.com/051055ee1b2dab3e64934205852f4a18)[https://code.earthengine.google.com/051055ee1b2dab3e64934205852f4a18]
+
+link example 2: (https://code.earthengine.google.com/410805d94e9c87bda3ce895efee77ade)[https://code.earthengine.google.com/410805d94e9c87bda3ce895efee77ade]
+
+    // declare a region polygon
+    var polygon = ee.Geometry.Polygon([
+    [[-128, 23], [-63, 23], [-63, 50], [-128, 50], [-128, 23]]
+    ]);
+
+    // This data set contains US boundaries. Other datasets may need
+    // filtering
+    var dataset = ee.FeatureCollection('TIGER/2018/States');
+
+    // Set the style of the line work
+    var styleParams = {
+    // fill color is in format HHHHHHAA where H is
+    // regular hexadecimal color and AA is the opacity
+    fillColor: 'b5ffb400',
+    color: '000000', // color of the line
+    width: 3.0, // width of the line
+    };
+
+    // Get the desired image by filtering our dataset by style
+    var image = dataset.style(styleParams);
+
+    // Create thumbnail characteristics
+    var thumbArgs = {
+    'region': polygon, // region from polygon
+    'dimensions': 1000, // dimensions
+    'crs': 'EPSG:3857' // just copy this in for looking right
+    };
+
+    // Create the thumbnail URL
+    var thumbnail = image.getThumbURL(thumbArgs);
+    print('Main US', thumbnail); // display thumbnail in a link
+
+    print(ui.Thumbnail(image, thumbArgs)); // display in Console
+
+
+* * *
 
 ##### Advance date by a day/week/month/etc
 
