@@ -32,9 +32,9 @@ link: [https://code.earthengine.google.com/a9ea948e1f3b3419f3f41c9a315a72dc](htt
 
 The desired border is obtained from a vector dataset. [Click here](https://developers.google.com/earth-engine/vector_datasets) for Google Earth Engine's selected vector datasets catalog
 
-link example 1: (https://code.earthengine.google.com/051055ee1b2dab3e64934205852f4a18)[https://code.earthengine.google.com/051055ee1b2dab3e64934205852f4a18]
+link example 1: [https://code.earthengine.google.com/051055ee1b2dab3e64934205852f4a18](https://code.earthengine.google.com/051055ee1b2dab3e64934205852f4a18)
 
-link example 2: (https://code.earthengine.google.com/410805d94e9c87bda3ce895efee77ade)[https://code.earthengine.google.com/410805d94e9c87bda3ce895efee77ade]
+link example 2: [https://code.earthengine.google.com/410805d94e9c87bda3ce895efee77ade](https://code.earthengine.google.com/410805d94e9c87bda3ce895efee77ade)
 
     // declare a region polygon
     var polygon = ee.Geometry.Polygon([
